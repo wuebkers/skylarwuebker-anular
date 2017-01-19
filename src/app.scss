@@ -1,0 +1,12 @@
+@import 'assets/styles/vendor/bootstrap';
+
+@import 'assets/styles/utilities/variables';
+@import 'assets/styles/utilities/mixins';
+@import 'assets/styles/utilities/scaffolding';
+
+@import 'assets/styles/components/typography';
+
+@import 'assets/styles/layouts/site-header';
+@import 'assets/styles/layouts/site-footer';
+
+@import 'modules/home/home';

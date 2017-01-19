@@ -1,0 +1,9 @@
+$brand-primary: #675E8C;
+
+body {
+	color: $brand-primary;
+
+	> div {
+		display: flex;
+	}
+}

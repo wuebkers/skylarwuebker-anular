@@ -1,0 +1,22 @@
+<!doctype html>
+<html ng-app="app">
+	<head>
+		<base href="/">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title ng-bind="MetaService.title()"></title>
+
+		<link rel="stylesheet" href="./app.css">
+	</head>
+	<body>
+
+		<header template="site-header"></header>
+
+		<main ui-view></main>
+
+		<footer template="site-footer"></footer>
+
+		<script src="./app.js"></script>
+	</body>
+</html>
